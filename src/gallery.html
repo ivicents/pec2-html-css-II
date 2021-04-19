@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <title>UOC Boilerplate</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="header-logo">
+            <img class="header-logo__img" alt="Imagen de oscars club" src="./assets/images/logo.png" />
+            <p class="header-logo__text">Jazztabien</p>
+        </div>
+        <nav class="header-navigation">
+            <ul class="header-navigation__ul">
+                <li class="header-navigation__item"><b><a class="header-link" href="./members.html">Members</a></b></li>
+                <li class="header-navigation__item"><b><a class="header-link" href="./blog.html">Blog</a></b></li>
+                <li class="header-navigation__item"><b><a class="header-link" href="./gallery.html">Gallery</a></b></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/logo.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/logo.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/logo.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+    <footer class="text-center gray">
+
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Subscribete a nuestra newsletter</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class=" mb-4">
+                                <input type="email" id="formHeaderEmail" class="form-control"
+                                    placeholder="Email address" />
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+        </div>
+        <!-- Grid container -->
+
+        <div class="footer text-center">
+
+            <!-- Logo container -->
+            <div class="container center">
+                <img class="header-logo__img" alt="Imagen de Jazztabien" src="./assets/images/logo.png" />
+            </div>
+            <!-- Logo container -->
+
+            <!-- Pages container -->
+            <div class="container pt-2 center">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="./index.html">Portada</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="./members.html">Members</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="./blog.html">Blog</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="./gallery.html">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Pages container -->
+
+            <!-- Social container -->
+            <div class="container center">
+                <!-- Section: Social media -->
+                <section class="mb-2">
+                    <!-- Google -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-2" href="#" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-google-plus-g"></i></a>
+
+                    <!-- Facebook -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-2" href="#" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-2" href="#" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Social container -->
+
+
+        </div>
+    </footer>
+    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
+</html>
