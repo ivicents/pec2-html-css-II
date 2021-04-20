@@ -4,21 +4,16 @@ $font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
 $font-family-serif: 'Georgia', 'Times New Roman', serif;
 
 $header-font: 'Source Serif Pro', Georgia, serif;
-$body-font: 'Avenir Book', 'Franklin Gothic Medium', Helvetica, Arial, sans-serif;
 
 $uoc-corporate: #000078;
 $uoc-masterbrand: #cc9725;
 $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 
-$blue:    #0d6efd;
-$indigo:  #6610f2;
-$purple:  #6f42c1;
-$pink:    #d63384;
+$blue:    #255acc;
 $red:     #dc3545;
-$orange:  #fd7e14;
+$orange:  #cc9725;
 $yellow:  #ffc107;
 $green:   #198754;
-$teal:    #20c997;
 $cyan:    #0dcaf0;
 $white:    #ffffff;
 $gray-100: #f8f9fa;
@@ -33,15 +28,12 @@ $gray-900: #212529;
 $black:    #000000;
 $text: #282828;
 
-
-$primary:       #cc9725;
-$secondary:     #255acc;
+$primary:       $orange;
+$secondary:     $blue;
 $success:       $green;
 $info:          $cyan;
 $warning:       $yellow;
 $danger:        $red;
-$light:         $gray-100;
-$dark:          $gray-900;
 
 $theme-colors: (
   'primary':    $primary,
@@ -50,41 +42,11 @@ $theme-colors: (
   'info':       $info,
   'warning':    $warning,
   'danger':     $danger,
-  'light':      $light,
-  'dark':       $dark
+
 );
 
 //Variables carousel
 $carousel-control-color:             $white;
 $carousel-control-width:             15%;
-$carousel-control-opacity:           .5;
-$carousel-control-hover-opacity:     .9;
-$carousel-control-transition:        opacity .15s ease;
-
-$carousel-indicator-width:           30px;
-$carousel-indicator-height:          3px;
-$carousel-indicator-hit-area-height: 10px;
-$carousel-indicator-spacer:          3px;
-$carousel-indicator-opacity:         .5;
-$carousel-indicator-active-bg:       $white;
-$carousel-indicator-active-opacity:  1;
-$carousel-indicator-transition:      opacity .6s ease;
-
-$carousel-caption-width:             70%;
-$carousel-caption-color:             $white;
-$carousel-caption-padding-y:         1.25rem;
-$carousel-caption-spacer:            1.25rem;
-
-$carousel-control-icon-width:        2rem;
-
-$carousel-control-prev-icon-bg:      url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#{$carousel-control-color}"><path d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>');
-$carousel-control-next-icon-bg:      url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#{$carousel-control-color}"><path d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>');
-
-$carousel-transition-duration:       .6s;
-$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
-
-$carousel-dark-indicator-active-bg:  $black;
-$carousel-dark-caption-color:        $black;
-$carousel-dark-control-icon-filter:  invert(1) grayscale(100);
 
 
