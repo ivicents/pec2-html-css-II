@@ -23,19 +23,6 @@
   }
 }
 
-.card {
-  background-color: white;
-  border-radius: 0.25rem;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  &:hover {
-    .card__image {
-      filter: contrast(100%);
-    }
-  }
-}
-
 .card__image {
   background-position: center center;
   background-repeat: no-repeat;
@@ -45,19 +32,35 @@
   filter: contrast(70%);
   overflow: hidden;
   position: relative;
-  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+  transition: filter 0.5s cubic-bezier(.43, .41, .22, .91);
   max-width: 100%;
   max-height: 100%;
 
   &::before {
-    content: "";
-	  display: block;
+    content: '';
+    display: block;
     padding-top: 56.25%; // 16:9 aspect ratio
   }
 
-  @media( min-width: 768px )  {
+  @media( min-width: 768px ) {
+
     &::before {
       padding-top: 66.6%; // 3:2 aspect ratio
+    }
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  &:hover {
+
+    .card__image {
+      filter: contrast(100%);
     }
   }
 }
