@@ -118,6 +118,7 @@ html {
 }
 
 .poster__button {
+  display: none;
   border: 0;
   background-color: $primary;
   color: $white;
@@ -126,7 +127,7 @@ html {
   padding: 1em 2em;
   position: absolute;
   right: 1em;
-  bottom: 1em;
+  bottom: 2em;
 }
 
 // Grid layout for wide display
@@ -203,6 +204,7 @@ html {
     }
 
     .poster__button {
+      display: grid;
       grid-column: 3 / 6;
       grid-row: 4 / 5;
       position: initial;
